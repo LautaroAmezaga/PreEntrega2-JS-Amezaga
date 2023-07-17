@@ -1,0 +1,45 @@
+footer{
+    background-color: black;
+    padding-top: 2rem;
+    min-height: 270px;
+
+    .footer-texto{
+        font-size: 1.5rem;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .iconos-redes-sociales a {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius: 50%;
+        transition: all 0.2s ease-in;
+
+        i{
+            color: white;
+            font-size: 1.5rem;
+            transition: all 0.2s ease-in;
+        }
+    }
+
+    .iconos-redes-sociales a:hover{
+        background-color: white;
+        border: 2px solid #D9435F;
+
+        i{
+            color: black;
+        }
+    }
+
+    .derechos-de-autor{
+        font-size: 14px;
+        color: gray;
+        margin: 20px;
+    }
+}
